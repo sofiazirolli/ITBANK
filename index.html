@@ -6,6 +6,31 @@
 	<title>ITBANK</title>
 </head>
 <body>
-
+	<header>
+		<div class='logo-title'>
+			<img src= ''/>
+		</div>
+		<div>Soy cliente</div>
+		<div>No soy cliente</div>
+	</header>
+	<div class='welcome-containter'>
+		<div>Bienvenido a ITBANK</div>
+	</div>
+	<div ui-view= 'login-view' class='panel-primary' autoscroll= 'true'>
+		<h4>Ingresá desde acá para operar</h4>
+		<input type="text" name="Tu número de documento">
+		<input type="password" name="Tu clave ITBANK">
+		<input type="password" name="Tu usuario">
+		<div>Recordar mi número de documento</div> 
+		<input type="checkbox" name="Recordar">
+	</div>
+	<div>Nunca compartas por teléfono, email o redes sociales tu Token de seguridad, los datos de tu tarjeta de coordenadas ni tus claves. Conocé más consejos de seguridad</div>
+	<button>Ingresar</button>
+	<div id="crear">
+		<span>Si no tenés u olvidaste tu clase y/o usuario</span>
+		<div><a href=>Crear clave y usuario</a></div>
+		<span>Si no tenés clave</span>
+		<div><a href= >Crear usuario</a></div>
+	</div>
 </body>
 </html>
