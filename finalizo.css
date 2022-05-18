@@ -16,7 +16,7 @@ header img{
 }
 
 body{
-	background-image: url("./mountains.jpg");
+	background-image: url("./img/mountains.jpg");
 	background-repeat: no-repeat;
 	background-size: 100vw 100vh;
 }
