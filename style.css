@@ -1,0 +1,161 @@
+header{
+	background-color: #fafafa;
+	position: absolute;
+	height: 5vw;
+	width: 100%;
+}
+
+header img{
+	width: 12vw;
+	margin-left: 2vw;
+	margin-top: 0.5vw;
+}
+
+.nav-item{
+	top: 0vw;
+	right: 0.4vw;
+	position: relative;
+	padding: 1px;
+	font-size: 1.2vw;
+	background-color: #fafafa;
+	border: 2.5px solid transparent;
+	border-radius: 10px;
+	margin: 0.5vw;
+	color: #005895;
+	clear: both;
+}
+
+nav:onclick {
+	border: none;
+	border-style: none;
+  	box-decoration-break: none;
+}
+
+#home-tab{
+	height: 3.6vw;
+	padding: 1vw 1vw;
+	font-size: 1.2vw;
+	background-color: #fafafa;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1.3vw;
+	bottom: 0;
+}
+
+#profile-tab{
+	height: 3.6vw;
+	padding: 1vw 1vw;
+	font-size: 1.2vw;
+	background-color: #fafafa;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1.3vw;	
+	bottom: 0;
+}
+
+#home-tab:hover{
+	background-color: #fafafa;
+  	color: #005895;
+ 	border-bottom: 2.5px solid #005895; 	
+ }
+
+#profile-tab:hover{
+	background-color: #fafafa;
+  	color: #005895;
+  	border-bottom: 2.5px solid #005895;
+}
+
+#left{
+/*	margin-top: 7.2vw;*/
+	float: left;
+  	width: 60%;
+  	height: 100vh;
+	background-image: url("./mountains.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100vw 100vh;
+  	bottom: 0;
+}
+
+#left p{
+	margin-left: 3vw;
+	margin-top: 12vw;
+	font-size: 3vw;
+}
+
+nav{
+	top: 0;
+	background-color: #fafafa;
+	float: right;
+	width: 40%;
+	height: 100vh;
+}
+
+#right{
+	margin-top: 7.2vw;
+	height: 75vh;
+	margin: 2rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #fafafa;
+	justify-content: center;
+	align-items: center;
+}
+
+h3{
+	font-size: 2vw;
+	text-align: center;
+	justify-content: center;
+	margin: 2.5vw;
+	margin-bottom: 3vw;
+}
+
+#forms{
+	font-size: 1.1vw;
+	text-align: center;
+	justify-content: space-around;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+
+.form-check{
+	margin-top: 2.5vw;
+	margin-left: 0.2vw;
+}
+
+#bottom{
+	justify-content: center;
+	text-align: center;
+	margin: 2.5vw;
+	margin-bottom: 0;
+	font-size: 1.1vw;
+}
+
+#boton{
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	margin: 1.5vw;
+}
+
+#boton button{
+	margin-top: 1vw;
+	width: 12vw;
+	height: 40px;
+	margin-bottom: 1vw;
+}
+
+#profile-tab-pane{
+	text-align: center;
+	justify-content: space-evenly;
+	margin: 1.5vw;
+
+}
+
+#profile-tab-pane label{
+	margin: 1rem;
+	margin-top: 0.5rem;
+}
+
+#profile-tab-pane button{
+	margin: 1rem;
+}

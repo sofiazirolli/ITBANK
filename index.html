@@ -3,34 +3,92 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>ITBANK</title>
+	<title>Online Banking ITBANK | Inicio de Sesión</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css"/>
 </head>
 <body>
 	<header>
-		<div class='logo-title'>
-			<img src= ''/>
-		</div>
-		<div>Soy cliente</div>
-		<div>No soy cliente</div>
+		<a href= 'https://google.com'> <img src= './ccad3d8e-0878-41d8-b3b0-5157a7e7094b.JPG'/> </a>
 	</header>
-	<div class='welcome-containter'>
-		<div>Bienvenido a ITBANK</div>
+	<div id='left'>
+		<p>¡Bienvenido!</p>
+		<!-- <img src="./13-132498_firewatch-landscape.jpg" class="img-fluid" alt="..."> -->
 	</div>
-	<div ui-view= 'login-view' class='panel-primary' autoscroll= 'true'>
-		<h4>Ingresá desde acá para operar</h4>
-		<input type="text" name="Tu número de documento">
-		<input type="password" name="Tu clave ITBANK">
-		<input type="password" name="Tu usuario">
-		<div>Recordar mi número de documento</div> 
-		<input type="checkbox" name="Recordar">
-	</div>
-	<div>Nunca compartas por teléfono, email o redes sociales tu Token de seguridad, los datos de tu tarjeta de coordenadas ni tus claves. Conocé más consejos de seguridad</div>
-	<button>Ingresar</button>
-	<div id="crear">
-		<span>Si no tenés u olvidaste tu clase y/o usuario</span>
-		<div><a href=>Crear clave y usuario</a></div>
-		<span>Si no tenés clave</span>
-		<div><a href= >Crear usuario</a></div>
-	</div>
+  	<nav>
+  		<ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
+  			<li class="nav-item" role="presentation">
+    			<button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home-tab-pane" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Soy cliente</button>
+  			</li>
+  			<li class="nav-item" role="presentation">
+    			<button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile-tab-pane" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">No soy cliente</button>
+  			</li>
+		</ul>
+
+  		<div id="right"><script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+		<div class="tab-content" id="myTabContent">
+  			<div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+
+  				<h3>Ingresa desde acá para operar</h3>
+  				<div id="forms">
+  					<div class="form-floating mb-3" >
+  						<input type="text" class="form-control" id="floatingInput" placeholder="Tu número de documento" required="required" maxlength="8" aria-invalid="true" autofocus="true">
+  						<label for="floatingInput">Tu número de documento</label>
+					</div>
+					<div class="form-floating mb-3">
+  						<input type="password" class="form-control" id="floatingPassword" placeholder="Tu clave ITBANK" required="required" maxlength="4">
+  						<label for="floatingPassword">Tu clave ITBANK</label>
+					</div>
+					<div class="form-floating">
+  						<input type="password" class="form-control" id="floatingPassword" placeholder="Tu usuario" required="required">
+  						<label for="floatingPassword">Tu usuario</label>
+					</div>
+				</div>
+
+  				<div class="col-auto">
+    				<div class="form-check">
+     	 				<input class="form-check-input" type="checkbox" id="autoSizingCheck">
+      					<label class="form-check-label" for="autoSizingCheck">Recordar mi número de documento</label>
+    				</div>
+ 	 			</div>
+  				<div id="boton" class="col-auto">
+    				<button tabindex="0" type="submit" class="btn btn-outline-primary btn-login" aria-disabled="true">Ingresar</button>
+  				</div>
+
+  				<div id="bottom">
+  					<label>Si no tenés u olvidaste tu clave y/o usuario</label><br>
+  					<a href= 'https://google.com'>Crear clave y usuario</a><br>
+  					<label>Si sólo tenés clave</label><br>
+  					<a href= 'https://google.com'>Crear usuario</a>
+  				</div>
+  			</div>
+  			
+  			<div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+  				<h3>Abrí tu cuenta ITBANK totalmente gratis de forma 100% digital</h3>
+  				<label>En ITBANK ofrecemos:</label>
+             	<div>
+             		<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-credit-card" viewBox="0 0 16 16">
+  						<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v1h14V4a1 1 0 0 0-1-1H2zm13 4H1v5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V7z"/>
+  						<path d="M2 10a1 1 0 0 1 1-1h1a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1v-1z"/></svg><br>
+                	
+                	<label>Tarjeta de débito</label><br>
+                	
+                	<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-arrow-left-right" viewBox="0 0 16 16">
+  						<path fill-rule="evenodd" d="M1 11.5a.5.5 0 0 0 .5.5h11.793l-3.147 3.146a.5.5 0 0 0 .708.708l4-4a.5.5 0 0 0 0-.708l-4-4a.5.5 0 0 0-.708.708L13.293 11H1.5a.5.5 0 0 0-.5.5zm14-7a.5.5 0 0 1-.5.5H2.707l3.147 3.146a.5.5 0 1 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 4H14.5a.5.5 0 0 1 .5.5z"/></svg><br>
+                	
+                	<label>Movimientos ilimitados</label><br>
+                	<img src="./icons8-recibir-efectivo-50.jpg" width="50" height="50"/><br>
+                	<label>Pagos de servicios</label><br>
+              	</div>
+             	<a href='https://google.com'><button type="button" class="btn btn-outline-primary">Quiero saber más</button></a>
+            </div>
+
+  			</div>
+		</div>
+  		
+		</div>
+  		
+  	</nav>
 </body>
 </html>

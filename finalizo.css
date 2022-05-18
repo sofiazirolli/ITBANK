@@ -1,0 +1,101 @@
+header{
+	height: 7rem;
+	background: white;
+}
+
+header img{
+	float: center;
+	display: flex;
+	width: 280px;
+	margin-top: 0.5rem;
+    position: absolute;
+    top: 3.5rem;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) 
+}
+
+body{
+	background-image: url("./mountains.jpg");
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+}
+
+
+.text{
+	position: absolute;
+	width: 100%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.btn{
+	display: flex;
+	position: absolute;
+	padding: 1vw 2vw;
+	font-size: 1.3vw;
+	top: 90%;
+    left: 44%;
+	background-color: #cfcbc9;
+	border: 2.5px solid #005895;
+	color: #005895;
+	border-radius: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.btn:hover{
+	background-color: #005895;
+  	color: #cfcbc9;
+  	border: 2px solid #005895; 
+}
+
+.text h3{
+	font-size: 3vw;
+	justify-content: space-around;
+	text-align: center;
+}
+
+.text p{
+	font-size: 1.5vw;
+	justify-content: space-around;
+	text-align: center;
+}
+
+ a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+ }
+
+footer{
+	text-align: center;
+	display: flex;
+	position: absolute;
+	justify-content: center;
+	background-color: white;
+	height: 6rem;
+  	bottom: 0;
+  	width: 100%;
+  	color: black;
+}
+
+footer p{
+	text-align: center;
+	display: baseline;
+	position: fixed;
+	bottom: 0;
+}
+
+ .container{
+	display: flex;
+	height: 20vw;
+  	width: 50vw;
+  	background-color: #cfcbc9;
+  	opacity: 0.5;
+  	position: absolute;
+ 	margin: 0;
+    top: 54%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+}
