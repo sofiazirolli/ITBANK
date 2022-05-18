@@ -7,7 +7,7 @@ header{
 
 header img{
 	width: 12vw;
-	margin-left: 2vw;
+	margin-left: 2.7vw;
 	margin-top: 0.5vw;
 }
 
@@ -19,16 +19,8 @@ header img{
 	font-size: 1.2vw;
 	background-color: #fafafa;
 	border: 2.5px solid transparent;
-	border-radius: 10px;
 	margin: 0.5vw;
 	color: #005895;
-	clear: both;
-}
-
-nav:onclick {
-	border: none;
-	border-style: none;
-  	box-decoration-break: none;
 }
 
 #home-tab{
@@ -66,7 +58,6 @@ nav:onclick {
 }
 
 #left{
-/*	margin-top: 7.2vw;*/
 	float: left;
   	width: 60%;
   	height: 100vh;
@@ -78,8 +69,8 @@ nav:onclick {
 
 #left p{
 	margin-left: 3vw;
-	margin-top: 12vw;
-	font-size: 3vw;
+	margin-top: 10vw;
+	font-size: 2.5vw;
 }
 
 nav{
@@ -116,6 +107,7 @@ h3{
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
+
 
 .form-check{
 	margin-top: 2.5vw;
