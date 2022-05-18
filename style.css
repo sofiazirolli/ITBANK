@@ -174,4 +174,10 @@ h3{
   	border: 2px solid #005895; 
 }
 
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: #005895;
+     font-weight: bold;
+
+ }
 
