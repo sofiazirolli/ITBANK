@@ -1,0 +1,160 @@
+header{
+	background-color: #fafafa;
+	position: absolute;
+	height: 5vw;
+	width: 100%;
+}
+header img{
+	width: 12vw;
+	margin-left: 2.7vw;
+	margin-top: 0.5vw;
+}
+.nav-item{
+	top: 0vw;
+	right: 0.4vw;
+	position: relative;
+	padding: 1px;
+	font-size: 1.2vw;
+	background-color: #fafafa;
+	border: 2.5px solid transparent;
+	margin: 0.5vw;
+	color: #005895;
+}
+#home-tab{
+	height: 3.6vw;
+	padding: 1vw 1vw;
+	font-size: 1.2vw;
+	background-color: #fafafa;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1.3vw;
+	bottom: 0;
+}
+#profile-tab{
+	height: 3.6vw;
+	padding: 1vw 1vw;
+	font-size: 1.2vw;
+	background-color: #fafafa;
+	text-align: center;
+	border-radius: 10px;
+	font-size: 1.3vw;	
+	bottom: 0;
+}
+#home-tab:hover{
+	background-color: #fafafa;
+  	color: #005895;
+ 	border-bottom: 2.5px solid #005895; 	
+ }
+#profile-tab:hover{
+	background-color: #fafafa;
+  	color: #005895;
+  	border-bottom: 2.5px solid #005895;
+}
+#left{
+	float: left;
+  	width: 60%;
+  	height: 100vh;
+	background-image: url("./img/mountains.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100vw 100vh;
+  	bottom: 0;
+}
+#left p{
+	margin-left: 3vw;
+	margin-top: 10vw;
+	font-size: 2.5vw;
+}
+nav{
+	top: 0;
+	background-color: #fafafa;
+	float: right;
+	width: 40%;
+	height: 100vh;
+}
+#right{
+	margin-top: 7.2vw;
+	height: 75vh;
+	margin: 2rem;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #fafafa;
+	justify-content: center;
+	align-items: center;
+}
+h3{
+	font-size: 2vw;
+	text-align: center;
+	justify-content: center;
+	margin: 2.5vw;
+	margin-bottom: 3vw;
+}
+#forms{
+	font-size: 1.1vw;
+	text-align: center;
+	justify-content: space-around;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.form-check{
+	margin-top: 2.5vw;
+	margin-left: 0.2vw;
+}
+#bottom{
+	justify-content: center;
+	text-align: center;
+	margin: 2.5vw;
+	margin-bottom: 0;
+	font-size: 1.1vw;
+}
+#boton{
+	position: relative;
+	justify-content: center;
+	text-align: center;
+	margin: 1.5vw;
+}
+#boton button:hover{
+	background-color: #005895;
+  	color: #cfcbc9;
+  	border: 2px solid #005895; 
+}
+#boton button{
+	margin-top: 1vw;
+	width: 12vw;
+	height: 40px;
+	margin-bottom: 1vw;
+	font-size: 1.2vw;
+	background-color: transparent;
+	border: 2.5px solid #005895;
+	color: #005895;
+	border-radius: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#profile-tab-pane{
+	text-align: center;
+	justify-content: space-evenly;
+	margin: 1.5vw;
+}
+#profile-tab-pane label{
+	margin: 1rem;
+	margin-top: 0.5rem;
+}
+#profile-tab-pane button{
+	margin: 1rem;
+	background-color: transparent;
+	border: 2.5px solid #005895;
+	color: #005895;
+	border-radius: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+#profile-tab-pane button:hover{
+	background-color: #005895;
+  	color: #cfcbc9;
+   	border: 2px solid #005895; 
+ }
+
+ a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: #005895;
+      font-weight: bold;
+
+  }
