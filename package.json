@@ -1,0 +1,22 @@
+{
+  "name": "itbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiazirolli/ITBANK.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiazirolli/ITBANK/issues"
+  },
+  "homepage": "https://github.com/sofiazirolli/ITBANK#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.0-beta1"
+  }
+}
