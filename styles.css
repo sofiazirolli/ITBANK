@@ -1,0 +1,52 @@
+body{
+	background-color: #fafafa;
+}
+
+#btn{
+	background-color: #fafafa;
+	border: 2.5px solid #005895;
+	color: #005895;
+	border-radius: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn:hover{
+	background-color: #005895;
+  	color: #fafafa;
+  	border: 2px solid #005895; 
+}
+
+
+#btn1{
+	display: flex;
+	margin-bottom: 2vw;
+	width: 16.5vw;
+	position: relative;
+	background-color: #fafafa;
+	border: 2.5px solid #005895;
+	color: #005895;
+	border-radius: 10px;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#btn1:hover{
+	background-color: #005895;
+  	color: #fafafa;
+  	border: 2px solid #005895; 
+}
+
+#card{
+	background-color: #fafafa;
+	border-radius: 10px;
+}
+
+
+#card:hover{
+	background-color: #fafafa;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#container{
+	margin-top: 1vw;
+	margin-bottom: 4vw;
+}
