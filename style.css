@@ -16,7 +16,6 @@ header img{
 	right: 0.4vw;
 	position: relative;
 	padding: 1px;
-	font-size: 1.2vw;
 	background-color: #fafafa;
 	border: 2.5px solid transparent;
 	margin: 0.5vw;
@@ -30,7 +29,6 @@ header img{
 	background-color: #fafafa;
 	text-align: center;
 	border-radius: 10px;
-	font-size: 1.3vw;
 	bottom: 0;
 }
 
@@ -41,7 +39,6 @@ header img{
 	background-color: #fafafa;
 	text-align: center;
 	border-radius: 10px;
-	font-size: 1.3vw;	
 	bottom: 0;
 }
 
@@ -65,12 +62,12 @@ header img{
   	background-repeat: no-repeat;
   	background-size: 100vw 100vh;
   	bottom: 0;
+  	display: inline-flex;
 }
 
-#left p{
-	margin-left: 3vw;
+#left h3{
+	margin-left: 2vw;
 	margin-top: 10vw;
-	font-size: 2.5vw;
 }
 
 nav{
@@ -82,6 +79,7 @@ nav{
 }
 
 #right{
+	position: static;
 	margin-top: 7.2vw;
 	height: 75vh;
 	margin: 2rem;
@@ -93,7 +91,6 @@ nav{
 }
 
 h3{
-	font-size: 2vw;
 	text-align: center;
 	justify-content: center;
 	margin: 2.5vw;
@@ -101,7 +98,7 @@ h3{
 }
 
 #forms{
-	font-size: 1.1vw;
+/*	font-size: 1.1vw; */
 	text-align: center;
 	justify-content: space-around;
 	margin-top: 1rem;
@@ -112,6 +109,7 @@ h3{
 .form-check{
 	margin-top: 2.5vw;
 	margin-left: 0.2vw;
+/*	font-size: 1.1vw;*/
 }
 
 #bottom{
@@ -119,7 +117,7 @@ h3{
 	text-align: center;
 	margin: 2.5vw;
 	margin-bottom: 0;
-	font-size: 1.1vw;
+/*	font-size: 1.1vw;*/
 }
 
 #boton{
@@ -128,23 +126,24 @@ h3{
 	text-align: center;
 	margin: 1.5vw;
 }
-#boton button:hover{
-	background-color: #005895;
-  	color: #cfcbc9;
-  	border: 2px solid #005895; 
-}
 
 #boton button{
+	justify-content: center;
 	margin-top: 1vw;
 	width: 12vw;
-	height: 40px;
 	margin-bottom: 1vw;
-	font-size: 1.2vw;
+	height: 3vw 2vh;
 	background-color: transparent;
 	border: 2.5px solid #005895;
 	color: #005895;
 	border-radius: 10px;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#boton button:hover{
+	background-color: #005895;
+  	color: #cfcbc9;
+  	border: 2px solid #005895; 
 }
 
 #profile-tab-pane{
@@ -165,6 +164,8 @@ h3{
 	border: 2.5px solid #005895;
 	color: #005895;
 	border-radius: 10px;
+/*	font-size: 1.2vw;*/
+	height: 3vw 2vh;
 	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
