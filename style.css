@@ -1,0 +1,40 @@
+
+/* top bar*/
+.navbar{
+    background: rgba(255, 255, 255, 0.692);
+}
+/* end top bar */
+
+/* Body */
+body { 
+    background-image: url(../homebanking/itbnak\ backgournd.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+ }
+
+/* body */
+
+.titulo{
+
+    font-size: 40px;
+}
+
+.subtitulo{
+
+    font-size: 30px;
+}
+
+.Box-white{
+    background-color: #ffffff;
+    border-radius: 10px;    
+}
+
+.Text-box{
+
+    font-size: 50px;
+}
+
+.parrafo{
+    font-size: 10px;
+}
+
