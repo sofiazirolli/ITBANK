@@ -1,0 +1,71 @@
+ <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-2 mb-lg-0">
+          <p class="text-uppercase mb-4">ITBANK</p>
+
+          <ul class="list-unstyled mb-4">
+            <li>
+              <a href="https://www.google.com.ar" class="text-black">Sobre nosotros</a>
+            </li>
+            <li>
+              <a href="https://www.google.com.ar" class="text-black">Quienes Somos</a>
+            </li>
+            <li>
+              <a href="https://www.google.com.ar" class="text-black">Beneficios</a>
+            </li>
+            
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-2 mb-lg-0">
+          <p class="text-uppercase mb-4">Asistencia</p>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.google.com.ar" class="text-black">Sucursales</a>
+            </li>
+            <li>
+              <a href="https://www.google.com.ar" class="text-black">Turnos Online</a>
+            </li>
+            <li>
+              <a href="https://www.google.com.ar" class="text-black">Recomendaciones de seguridad</a>
+            </li>
+           
+          </ul>
+        </div>
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-2 mb-lg-0">
+            <p class="text-uppercase mb-4">contacto</p>
+  
+            <ul class="list-unstyled">
+              <li>
+                <a href="https://www.google.com.ar" class="text-black"><img src="gmail.png" width="16px"> Correo</a>
+              </li>
+              <li>
+                <a href="https://www.google.com.ar" class="text-black" ><img src="icons8-facebook-50.png" width="16px"> Facebook</a>
+              </li>
+              <li>
+                <a href="https://www.google.com.ar" class="text-black"><img src="icons8-linkedin-24.png" width="16px"> LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://www.google.com.ar" class="text-black"><img src="twitter.png" width="16px"> Twitter</a>
+              </li>
+              
+             
+            </ul>
+          </div>
+        
+    <!-- Grid container -->
+    <!-- Copyright -->
+    <div class="text-center p-3 border-top border-white">
+        © ITBANK Argentina SA. All rights reserved
+    </div>
+    <!-- Copyright -->
+  </footer>
