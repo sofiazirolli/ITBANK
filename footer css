@@ -1,0 +1,34 @@
+a:link{
+    text-decoration-line: none;
+    
+}
+
+a:visited{
+    text-decoration-color:aquamarine;
+}
+
+a:hover{
+    color:bisque;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+footer{
+    background-color: rgba(255, 255, 255, 0.692);
+    border-top-width: 1em;
+    padding: 1em;
+    border: 0;
+    margin-bottom: 0;
+    width: 100%;
+    
+    
+}
+footer div p{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer div li{
+    font-size: 16px;
+}
