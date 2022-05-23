@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- TITULOOOOOOOOOO -->
+    <title>ITBANK</title>
+<!-- UNION CON CSS -->      
+    <link rel="stylesheet" href="./jav-style.css">
+
+<!--  FUENTE!!! -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,600;0,700;1,400&display=swap">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" crossorigin="anonymous">
+
+
+<!--  IMAGENESSSS -->
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous"> 
+    -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    
+</head>
+<body>
+
+    <!-- FONDO PRINCIPAL  -->
+    <section class="header">
+        <!-- NAVBAR CON LOGO Y LINK -->
+        <nav>
+            <!-- LOGO DE ITBA -->
+            <a href="index.html"> <img src="./itba/logo2.png" alt=""></a>
+           
+
+            <!-- DIV CON LOS APARTADOS DE CADA LINK DEL NAV -->
+            <div class="nav-links" id="navlinks">
+                
+            <!-- LINK SACADO DE FONT AWESOME PARA CERRAR LA PESTAÑAAA -->
+            <i class="fa fa-times" onclick="hidemenu()"></i> 
+                <!-- Se agrega una lista no ordenada -->
+                <ul>
+                    <!-- Se grega un conjunto de listas ordenadas con cada una de las paginas que ofrece el nav, cada una con un link-->
+                        <li><a href="#"> CENTRO DE AYUDA </a></li>                      
+                        <li> <a href="#"> TURNOS ONLINE </a> </li>
+                        <li> <a href="#"> BENEFICIOS </a> </li>
+                        <li> <a href="#"> SEGURIDAD </a> </li>
+                        <li> <a href="#"> ITBANK PLUS+</a> </li>
+                        <li> <a href="#"> MORE </a> </li>
+                        <li> <a href="#"> MORE X2 </a> </li>
+
+                </ul>
+            </div>
+            <!--  LOGO PARA TENER LA ANVORGESEETA -->
+            <i class="fa fa-bars" onclick="showmenu()"></i>
+        </nav>
+
+        <!-- AGREGAMOS DIV CON TEXT BOX -->
+        <div class="text-box">  
+            <!-- AGREGAMOS TITULO PRINCIPAL!! -->
+            <h1>ITBANK tu banco universitario</h1>
+            <!--  AGREGAMOS BREVE DESCRIPCION DEL ENCABEZADO -->
+            <p>Descripcion breve Descripcion breve Descripcion breve Descripcion breve Descripcion breve <br> Descripcion breve Descripcion breve Descripcion breve Descripcion brev</p>
+            <!-- AGREGAMOS BOTON PARA REDIRECIONAR!! -->
+            <a href="" class="hero-btn">Visitanos para saber mas!</a>
+        </div>
+
+    </section>
+
+<!--  NOVEDADESSSSSSSSSS -->
+    <section class="bg-novedades">
+ 
+    <div class="novedades">    
+
+        <h1 class="titnov">Novedades sobre ITBANK</h1>
+        <p>ITBANK quieres sepas de todas nuestras novedades para tu provecho financiero!</p>
+
+        <div class="row">
+            <div class="novedades-col">
+                <h3 class="tith3"> PRIMER NOVEDAD</h3>
+                <img class="img-nov1" src="./novedades/undraw_Books_re_8gea.png" alt="">
+                <P> Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum vitae repellendus exercitationem et cum eveniet quas maiores eius eligendi autem?.</P>
+                <a href="" class="hero-btn1">Conocé más!</a>
+            </div>
+            <div class="novedades-col">
+                <h3 class="tith3"> SEGUNDA NOVEDAD </h3>
+                <img class="img-nov"  src="./novedades/undraw_Mobile_interface_re_1vv9.png" alt="">
+                <P> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam quas iure debitis dolorum id exercitationem optio atque ratione eum commodi.</P>
+                <a href="" class="hero-btn2">Conocé más!</a>
+            </div>
+            <div class="novedades-col">
+                <h3 class="tith3"> TERCER NOVEDAD</h3>
+                <img class="img-nov" src="./novedades/undraw_Transfer_money_re_6o1h.png" alt="">
+                <P> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore eius, corrupti laboriosam nobis aut totam quam exercitationem repellat sint impedit!</P>
+                <a href="" class="hero-btn3">Conocé más!</a>
+            </div>  
+        </div>
+    </div>
+    </section>
+
+    <!-- EMPRENDEDOR!!!! -->
+
+    <section class="bg-emp">
+        <!-- <div>
+            <h1>¿Emprendedor? Nosotros los llamamos valientes.</h1>
+            <p>Te contamos todo lo que necesitas saber si sos Emprendedor y no sabes por dónde empezar.</p>
+        </div> -->
+        <div class="novedades">    
+
+            <h1 class="emph1">¿Emprendedor? Nosotros los llamamos valientes.</h1>
+            <p class="empp">Te contamos todo lo que necesitas saber si sos Emprendedor y no sabes por dónde empezar.</p>
+    
+            <div class="row">
+                <div class="emp-col">
+                    <h3 class="emph3"> Potencia tu emprendimiento</h3>
+                    <br>
+                    <img class="img-nov1" src="./emp/emp1.jpg" alt="">
+                    <P class="empp2"> Para ITBANK los emprendedores son los autónomos, monotributistas, personas físicas que tengan actividad comercial.</P>
+                    <a href="" class="hero-btn1">Conocé más!</a>
+                </div>
+                <div class="emp-col">
+                    <h3 class="emph3"> ¿Qué es ser emprendedor?</h3>
+                    <br>
+                    <img class="img-nov"  src="./emp/emp2.jpg" alt="">
+                    <P class="empp2">  Tener claro qué es emprender es el primer paso para tener un negocio exitoso, por eso ITBANK te trae las características de un emprendedor.</P>
+                    <a href="" class="hero-btn2">Conocé más!</a>
+                </div>
+                <div class="emp-col">
+                    <h3 class="emph3"> Recomendaciones para emprender</h3>
+                    <br>
+                    <img class="img-nov" src="./emp/emp3.jpg" alt="">
+                    <P class="empp2"> ITBANK te trae las principales recomendaciones para emprender un negocio con éxito y cuáles son los beneficios de emprender.</P>
+                    <a href="" class="hero-btn3">Conocé más!</a>
+                </div>  
+            </div>
+    </section>
+
+
+
+<!-- BENEFICIOSSSSSSSSSS-->
+
+
+    <section class="ben">
+        <div>
+            <!-- titulo ben -->
+            <h1>Beneficios exclusivos en viajes</h1>
+            <!-- subtitulo ben -->
+            <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda laudantium molestias animi neque consequuntur corrupti.</P>
+        </div>
+        <!-- fila ben -->
+        <div class="row">
+            <!-- ben1 -->
+            <div class="ben-col">
+                <img class="ateneo" src="./eduford_img/london.png" alt="">
+                <!-- layer intective -->
+                <div class="layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div> 
+            <!-- ben2  -->
+            <div class="ben-col">
+                <img src="./eduford_img/newyork.png" alt="">
+                <div class="layer">
+                    <h3>NEW YORK</h3>
+                </div>
+            </div> 
+            <!-- ben3 -->
+            <div class="ben-col">
+                <img class="atn" src="./eduford_img/washington.png" alt="">
+                <div class="layer">
+                    <h3>WASHINGTON</h3> 
+                </div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- FACILIDADESS -->
+<section class="bg-sec">
+    <div class="faci">
+    
+            <h1 class="c-faci"> Nuestras facilidades en ITBA </h1>
+            <P class="c-faci">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, doloribus!</P>
+
+        <div class="row">
+            <div class="faci-col">
+                <img src="./eduford_img/library.png" alt="">
+                <h3>Librerias</h3>
+                <P>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis velit sed temporibus sit ipsam quas?</P>
+            </div>
+            <div class="faci-col">
+                <img src="./eduford_img/basketball.png" alt="">
+                <h3>Deportes</h3>
+                <P>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum iure maxime unde illo, nobis fuga?</P>
+            </div>
+            <div class="faci-col">
+                <img src="./eduford_img/cafeteria.png" alt="">
+                <h3>Cafeterias</h3>
+                <P>Lorem ipsum dolor sit amet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro enim illum vitae distinctio! Minima, laudantium!</P>
+            </div>
+        </div>
+    </section>
+<!-- faqqqq -->
+    <section class="bg-faq">
+        <div class="container">
+            <div class="row">
+                <div class="container-faq">
+                    <div class="title-faq">
+                        <h3 class="tit">Preguntas Frecuentes</h3>
+                    </div>
+    
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3 class="pregh3">Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span></span></h3>
+                            <div class="more"><i>+</i></div>
+                        </div>
+                        <div class="answer">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span></span></p>
+                        </div>
+                    </div>
+    
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3 class="pregh3">Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span></span></h3>
+                            <div class="more"><i>+</i></div>
+                        </div>
+                        <div class="answer">
+                            <p class="fs-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span></span></p>
+                        </div>
+                    </div>
+    
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3 class="pregh3">Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span></span></h3>
+                            <div class="more"><i>+</i></div>
+                        </div>
+                        <div class="answer">
+                            <p class="fs-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span></span></p>
+                        </div>
+                    </div>
+    
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3 class="pregh3">Lorem ipsum dolor sit amet consectetur adipisicing elit ? <span></span></h3>
+                            <div class="more"><i>+</i></div>
+                        </div>
+                        <div class="answer">
+                            <p class="fs-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span></span></p>
+                        </div>
+                    </div>
+    
+                    <div class="item-faq">
+                        <div class="question">
+                            <h3 class="pregh3">Lorem ips/um dolor sit amet consectetur adipisicing elit ? <span></span></h3>
+                            <div class="more"><i>+</i></div>
+                        </div>
+                        <div class="answer">
+                            <p class="fs-p"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores repellat vitae tenetur eos doloremque. Tempora sed ut consequatur laboriosam sit mollitia beatae error, omnis deleniti, earum eius odit. Doloribus, nesciunt.<span></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- contact usssssssssss -->
+
+    <section class="cta">
+        <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. <br> Recusandae, eius.</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section> 
+    <!-- footer -->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Quasi culpa omnis nisi at repudiandae nam.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"> </i>
+            <i class="fa fa-twitter"> </i>
+            <i class="fa fa-instagram"> </i>
+            <i class="fa fa-linkedin"> </i>
+        </div>
+    </section>
+
+
+    <!-- javascript for toggle -->
+    <!-- <script>
+        var navlinks=document.getElementById ("navlinks");
+        function showmenu(){
+            navlinks.style.right = "0"; }
+        function    hidemenu(){
+            navlinks.style.right = "-300px";}
+    </script> -->
+<script src="./script.js"></script> 
+</body>
+</html>
