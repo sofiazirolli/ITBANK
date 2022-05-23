@@ -1,43 +1,67 @@
 header{
 	background-color: #fafafa;
 	position: absolute;
-	height: 5vw;
+	height: 72px;
 	width: 100%;
 }
 header img{
-	width: 12vw;
+	height: 65px;
 	margin-left: 2.7vw;
 	margin-top: 0.5vw;
 }
+
+#left{
+	float: left;
+  	width: 60%;
+  	height: 100vh;
+	background-image: url("./img/mountains.jpg");
+  	background-repeat: no-repeat;
+  	background-size: 100vw 100vh;
+  	bottom: 0;
+}
+#left p{
+	margin-left: 3vw;
+	margin-top: 50vw;
+	font-size: 2.5vw;
+}
+nav{
+	overflow: hidden;
+  	position: fixed;
+  	top: 0;
+  	width: 576px;
+	background-color: #fafafa;
+	height: 100vh;
+	z-index: 1;
+  	right: 0;
+  	overflow-x: hidden;
+}
+
 .nav-item{
 	top: 0vw;
 	right: 0.4vw;
 	position: relative;
 	padding: 1px;
-	font-size: 1.2vw;
 	background-color: #fafafa;
 	border: 2.5px solid transparent;
 	margin: 0.5vw;
 	color: #005895;
 }
 #home-tab{
-	height: 3.6vw;
+	height: 51px;
 	padding: 1vw 1vw;
-	font-size: 1.2vw;
+	font-size: 18px;
 	background-color: #fafafa;
 	text-align: center;
 	border-radius: 10px;
-	font-size: 1.3vw;
 	bottom: 0;
 }
 #profile-tab{
-	height: 3.6vw;
+	height: 51px;
 	padding: 1vw 1vw;
-	font-size: 1.2vw;
+	font-size: 18px;
 	background-color: #fafafa;
 	text-align: center;
 	border-radius: 10px;
-	font-size: 1.3vw;	
 	bottom: 0;
 }
 #home-tab:hover{
@@ -50,27 +74,7 @@ header img{
   	color: #005895;
   	border-bottom: 2.5px solid #005895;
 }
-#left{
-	float: left;
-  	width: 60%;
-  	height: 100vh;
-	background-image: url("./img/mountains.jpg");
-  	background-repeat: no-repeat;
-  	background-size: 100vw 100vh;
-  	bottom: 0;
-}
-#left p{
-	margin-left: 3vw;
-	margin-top: 10vw;
-	font-size: 2.5vw;
-}
-nav{
-	top: 0;
-	background-color: #fafafa;
-	float: right;
-	width: 40%;
-	height: 100vh;
-}
+
 #right{
 	margin-top: 7.2vw;
 	height: 75vh;
@@ -82,29 +86,29 @@ nav{
 	align-items: center;
 }
 h3{
-	font-size: 2vw;
+	font-size: 29px;
 	text-align: center;
 	justify-content: center;
-	margin: 2.5vw;
+	margin: 35px;
 	margin-bottom: 3vw;
 }
 #forms{
-	font-size: 1.1vw;
+	font-size: 16px;
 	text-align: center;
 	justify-content: space-around;
-	margin-top: 1rem;
+	margin-top: 35px;
 	margin-bottom: 1rem;
 }
 .form-check{
-	margin-top: 2.5vw;
+	margin-top: 35px;
 	margin-left: 0.2vw;
 }
 #bottom{
 	justify-content: center;
 	text-align: center;
-	margin: 2.5vw;
+	margin: 35px;
 	margin-bottom: 0;
-	font-size: 1.1vw;
+	font-size: 16px;
 }
 #boton{
 	position: relative;
@@ -118,11 +122,11 @@ h3{
   	border: 2px solid #005895; 
 }
 #boton button{
-	margin-top: 1vw;
-	width: 12vw;
+	margin-top: 10px;
+	width: 173px;
 	height: 40px;
 	margin-bottom: 1vw;
-	font-size: 1.2vw;
+	font-size: 16px;
 	background-color: transparent;
 	border: 2.5px solid #005895;
 	color: #005895;
