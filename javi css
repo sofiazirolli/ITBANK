@@ -1,0 +1,558 @@
+/* FONDO PRINCIPAL!!!!!!!!  */
+*   { margin: 0;
+padding: 0;
+/* Fuentes de texto */
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+
+ .header{ 
+     min-height: 100vh;
+     width: 100%;
+     background-image: linear-gradient(rgba(4,9,30,0.7), rgba(4,9,30,0.7)), url(./itba/SCSXZSLFURDJDETCJOIOB2YSC4.png);
+     background-position: center ;
+     background-size: cover;
+    position: relative;}
+
+
+    /* PARA EDITAR NAVBAR!!!     */
+/* PARAMETROS DE TODO EL NAV */
+    nav { 
+        display: flex;
+        padding: 2% 6%;
+        justify-content:space-between;
+        align-items: center;
+    }
+/* PARAMETROS DE ALTURA DE IMAGEN */
+    nav img {
+        width: 150px;
+    }
+/*  PARAMETROS PARA TODOS LOS LINKS DEL NAV */
+/*  UBICA EL NAV A LA DERECHA CREO!!! */
+    .nav-links{
+        flex: 1;
+        text-align:right;
+    }
+
+    /* PARAMETRPS DE LOS LINKS QUE ESTAN EN EL NAV */
+    /* AGREGA PADDING Y POSICIONES A LA LISTA DE LINKS */
+    .nav-links ul li {
+        list-style: none;
+        display: inline-block;
+        padding: 8px 12px;
+        position: relative;
+    }
+/*  AGREGA ESTILO A LOS TEXTOS DEL LINK DE LOS NAVS */
+    .nav-links ul li a{
+        color: #fff;
+        text-decoration: none;
+        font-size: 13px;
+     }
+/* CON AFTER VAMOS A AGREGAR ESTILO A NUESTROS LINKS DE NAV */
+
+    .nav-links ul li::after {
+        content:'';
+        /* con width 100% no aparece */
+        width: 0%;   
+        /*  agranda la barrita azul */
+        height: 2PX;
+        /* elige el color de la barrita */
+        background-color: #12628F;
+        /* elige el tipo de display */
+        display: block;
+        /*  el tipo de marginn */
+        margin: auto; 
+        /* elige el tiempo de transicion */
+        transition: 0.7s;
+    }
+    .nav-links ul li:hover::after {
+        /* eleige el porcentaje en el que se abre la barrita en el tiempo dado */
+        width: 100%;
+    }
+    /* PARAMETROS DE TEXT BOX, LO CENTRA, ALINEA EL TEXTO EN EL CENTRO, JUGAR CON LOS PARAMETROS PARA PERSONALIZAR!!! */
+    .text-box {
+        width: 90%;
+        color: #FFF;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center ;
+    }
+    /*  EDITA LOS PARAMETROS DEL H1 QUE ESTA EN EL TXTBOX FONTSIZE */
+    .text-box h1 {
+        font-size: 62px;
+    }
+    /* EDITA LOS PARAMETROS DE P EN TXTBOX, EL MARGIN PARA UBICARLO Y EL FONTSIZE JUNTO CON EL COLOR */
+     .text-box p {
+         margin: 10px 0 40px;
+         font-size: 16px;
+         color: #fff;
+     }
+     /* Agrega la propiedad de displau, quita decoracion, pone color de letra, elije tamano de letra, pone transparente el background 
+        agrega pósicion relativa y pone pointer!!*/
+     .hero-btn {
+         display: inline-block;
+         text-decoration: none;
+         color: #fff;
+         border: 1px solid #fff;
+         padding: 12px 34px;
+         font-size: 13px;
+         background: transparent;
+         position: relative;
+         cursor: pointer;
+         margin-top: 10px;
+     }
+    /*  agrega borde y pone un background celeste con transicion de 0.5s */
+     .hero-btn:hover {
+         border: 1px solid #12628f ;
+         background: #12628f ;
+         transition: 0.5s;}
+
+        nav.fa{
+        display: none;
+        color: #fff;}
+
+     /* Para hacer responsive la pagina agrega un media quarie que pone la condicion que cuando sea menor que 700px, el text box de h1 pase a ser de 20px en vez de 62px */
+     @media(max-width: 700px) 
+    { 
+     .text-box h1 { font-size: 20px;}
+        /* ESTILOS DEL NAV LINK CUANDO LA PAG ES MAS CHICA */
+     .nav-links ul li {display: block;}
+     .nav-links {
+        position: absolute;
+        background: #12628F;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 2;
+        transition: 0.5s;}
+        /*  ESTILOS DE LAS IMAGENES DE MENU Y CLOSE */
+     nav .fa{
+         display: block;
+         color: #fff;
+         margin: 10px;
+         font-size: 22px;
+         cursor: pointer;}
+        /*  CHEQUEAR!!  */
+     .nav-links ul {
+         padding: 30px;}
+
+         .novedades .titnov{
+         font-size: 20px;}
+         .row .novedades-col h3 {
+             font-size: 20px;
+         }
+
+     .novedades .emph1
+     { font-size: 20px;}
+     .row{
+        flex-direction: column;
+    }
+
+    h3 .tith3 {
+        font-size: 15px;
+    }
+    }
+    
+    /* NOVEDADESSSSSS */
+    /* bg  color de novedades  */
+     .bg-novedades {
+        background-color:#efefef ;
+        /* 9798c8 */
+    } 
+    /* propiedades generales del articulo */
+    .novedades { 
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+    /* prop de h1 */
+    div.novedades h1 {
+        font-size: 36px;
+        font-weight: 600;
+    }
+     /* prop de p */
+    div .novedades p {
+        font-size: 2px;
+        font-weight: 300;
+        line-height: 10px;
+        padding: 15px;
+    }
+    /* propiedades de la fila con las novedades */
+    .row {
+        margin-top: 5%;
+        display: flex;
+        justify-content:space-between;
+    }
+    /* prop de tarjetas con novedeades */
+    .novedades-col{
+        /* border: solid; */
+        flex-basis: 31%;
+        background-color:#afafcd47;
+        border-radius: 15px;
+        margin-bottom: 5%;
+        padding: 20px 12px;
+        box-sizing: border-box;
+        transition: 0.5s;
+        /* cursor: pointer; */
+    }
+    /* prop del texto de la tarjetas     */
+    .row .novedades-col {
+        text-align: center;
+        font-weight: 600;
+        margin: 10px 0;
+    }
+    .row .novedades-col:hover {
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+    }
+    /* @media(max-width:700px)
+    {
+       
+    } */
+    p {
+        color: #777;
+        font-size: 14px;
+
+    }
+    .novedades-col .img-nov {
+        max-width:300px;
+        max-height:800px;
+    }
+    .novedades-col .img-nov1 {
+        max-width:300px;
+        max-height:900px;
+    }
+    .hero-btn1 {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: cornflowerblue;
+        position: relative;
+        cursor: pointer;
+        margin-top: 20px;
+        border-radius: 10%;
+    }
+    .hero-btn2 {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: cornflowerblue;
+        position: relative;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 10%;
+    }
+    .hero-btn3 {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 13px;
+        background: cornflowerblue;
+        position: relative;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 10%;
+    }
+/* NOVEDADESSSSSSSSSSSSSSSSSS */
+
+.bg-emp {
+    background-color:#2135a8c0 ;
+    /* 9798c8 */
+} 
+.emp-col{
+    /* border: solid; */
+    flex-basis: 31%;
+    background-color:#848da8;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+.emp-col .img-nov {
+    max-width:300px;
+    max-height:800px;
+}
+.emp-col .img-nov1 {
+    max-width:300px;
+    max-height:900px;
+}
+.empp {
+    color: rgb(255, 254, 254);
+}
+
+.empp2 {
+    color: rgb(255, 254, 254);
+}
+.emph3 {
+    color: rgb(255, 254, 254);
+}
+
+.emph1 {
+    color: rgb(255, 254, 254);
+}
+.row .emp-col:hover {
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);}
+
+    /* BENEFICIOSSSSSSSSSSSSSSSSSSSSSSS */
+    .ben {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+    .ben-col {
+        flex-basis: 32%;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .ben-col img {
+        width: 100%;
+        height: 120%;
+        display: block;
+
+    }
+
+    .layer {
+        background: transparent;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        transition: 0.5s;
+    }
+
+    .layer:hover {
+        background:#12618f97 ;
+    }
+
+    div .ateneo {
+        width: 100%;
+    }
+
+    .layer h3 {
+        width: 100%;
+        font-weight: 500;
+        color: #FFF;
+        font-size: 26px;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        position: absolute;
+        opacity: 0;
+        transition: 0.5;
+    }
+    
+    .layer:hover h3 {
+        bottom: 49%;
+        opacity: 1;
+    }
+
+
+    /* FACILIDADESSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+
+    .faci {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+    }
+
+
+    div .faci-col{
+        flex-basis: 31%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+    }
+    div .faci-col img{
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .faci-col p {
+        padding: 0;
+        color: #fff;
+    }
+    .faci-col h3 {
+        margin-top: 16px;
+        margin-bottom: 15px;
+        text-align: left;
+        color: #fff;
+    }
+
+    .bg-sec {
+        background-color:#2135a8c0 ;
+    }
+    
+    .c-faci {
+        color: #fff;
+    }
+/* FAAAAAAAAAAAAAAAAQ */
+    .container {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 100px;
+
+    }
+    .container-faq {
+        box-shadow: 0 0 15px -1px rgba(0,0,0,.1);
+        padding: 30px;
+        padding-bottom: 50%;
+    }
+    .container-faq .title-faq {
+        text-align: center;
+        font-size: 15px;
+        margin-bottom: 300px;
+
+    }
+
+    .container-faq .item-faq {
+        box-shadow: 0 0 15px -1 rgba(0,0,0,.2);
+        margin-bottom: 20px;
+        border-radius: 10px;   
+    }
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+    padding-top: 20px;
+
+}
+
+.container-faq {
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.1);
+    padding: 50px;
+    padding-top: 10px;
+}
+
+.container-faq .title-faq {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 50px;
+}
+
+.container-faq .item-faq {
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.2);
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container-faq .item-faq .question {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* color preg */
+    background: rgba(43, 51, 122, .2); 
+    padding: 20px 20px 20px 60px;
+    transition: .4s;
+}
+
+.container-faq .item-faq .question .more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.2);
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.container-faq .item-faq .question .more:hover {
+    box-shadow: 0 0 15px -1px rgba(0,0,0,.4);
+}
+
+.container-faq .item-faq .question span {
+    position: absolute;
+    left: 10px;
+    font-size: 3rem;
+    top: 10px;
+    opacity: .1;
+}
+
+.container-faq .item-faq .answer {
+    position: relative;
+    padding: 0 20px 0 80px;
+    overflow: hidden;
+    height: 0;
+    transition: .4s;
+}
+
+.container-faq .item-faq .answer p {
+    font-size: 14px;
+}
+
+.container-faq .item-faq .answer span {
+    position: absolute;
+    left: 10px;
+    font-size: 3rem;
+    top: -10px;
+    opacity: .2;
+}
+div .pregh3 {
+    font-size: 14px;
+
+}
+
+.title-faq .tit {
+    font-size: 24px;
+}
+.container-faq {
+    background-color: #efefef;
+}
+.bg-faq {
+    background-color: #efefef;
+}
+
+/*  mas cositasssssssssssss */
+
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(./eduford_img/banner2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+    background-color: #efefef;
+}
+.cta h1 {
+    color: #FFF;
+    margin-bottom: 40px;
+    padding: 0;
+}
+ 
+/* Footerrr */
+
+.footer {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.footer h4 {
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
