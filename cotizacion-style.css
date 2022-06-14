@@ -1,0 +1,31 @@
+#caja{
+	padding:  2vw;
+}
+
+.card-header{
+	text-align: center;
+	vertical-align: center;
+}
+
+h2{
+	margin-top: 1vw;
+}
+
+h5{
+	margin-top: 1vw;
+}
+
+p{
+	text-align: center;
+	
+}
+
+span{
+	margin: 2vw;
+	
+}
+
+.card-footer{
+	text-align: center;
+}
+
