@@ -22,9 +22,6 @@ function getPrice(dolar){
 				<span>$${json.venta}</span>
 				<p>VARIACIÓN: ${json.variacion}%</p>
 				</p>
-				<div class="card-footer">
-				<small class="text-muted">ACTUALIZADO: </small>
-				</div>
 				</div>
 				</div>
 				</div>`;
@@ -42,9 +39,6 @@ function getPrice(dolar){
 				<span>$${json.venta}</span>
 				<p>VARIACIÓN: ${json.variacion}%</p>
 				</p>
-				<div class="card-footer">
-				<small class="text-muted">ACTUALIZADO: </small>
-				</div>
 				</div>
 				</div>
 				</div>`;
