@@ -50,4 +50,4 @@ function getPrice(dolar){
 
 setInterval(function(){
     location.href = location.href
-}, 86400000);
+}, 3600000);
